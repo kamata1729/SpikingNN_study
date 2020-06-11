@@ -82,4 +82,6 @@ resnetの場合は、最初のlayerだけthresholdが高くなり、最後のlay
 
 ・最初の7x7 convは3x3に分解
 
+深い層になるほどspike countが減ることも確認されている
+
 
