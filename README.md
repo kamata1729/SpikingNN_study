@@ -53,6 +53,9 @@ ANNと等価なback propができると主張しており、GPUを使って学�
 
 # Going Deeper in Spiking Neural Networks: VGG and Residual Architectures
 https://arxiv.org/pdf/1802.02627.pdf
-spike normの提案
+ANN-SNN conversionで、thresholdをスパイクの最大入力値にするspike normの提案
+resnetの場合は、最初のlayerだけthresholdが高くなり、最後のlayerはidentitymapにほぼ等しくなるから、次の制約をかけている
+・skip connectのreluは、どちらも同じthresholdにする
+・最初の7x7 convは3x3に分解
 
 
